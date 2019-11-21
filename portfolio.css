@@ -1,0 +1,149 @@
+body{
+    background: url(imgs/bgimagelight.png);
+    background-size: cover;
+    background-position:top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Nunito", sans-serif;
+}
+
+@media (max-width: 767px) {
+    body{
+            background-position: 52% bottom;
+           
+    }        
+}   
+
+html{
+    height:100%;
+}
+
+#toptext p{
+    font-size:1rem;
+}
+
+@media (max-width: 767px) {
+    #toptext p{
+            font-size:0.5rem;
+    }        
+}   
+
+@media (min-width: 625px) {
+    #toptext p{
+            font-size:0.75rem;
+    }        
+}   
+
+
+#toptextlg p{
+    font-size:1.5rem;
+}
+
+#toptextxl p{
+    font-size:1.5rem;
+}
+
+#toptext h1{
+    font-size:3rem;
+}
+
+@media (max-width: 767px) {
+    #toptext h1{
+            font-size:1.5rem;
+    }        
+} 
+
+@media (min-width: 625px) {
+    #toptext h1{
+            font-size:2.25rem;
+    }        
+}   
+
+#toptextlg h1{
+    font-size:4rem;
+}
+
+#toptextxl h1{
+    font-size:5rem;
+}
+
+/* navbar */
+
+#mainNavbar{
+    background:white;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link{
+    color: grey;
+}
+
+#mainNavbar .nav-link:hover {
+    color: black;
+}
+
+#mainNavbar .nav-icons{
+    color: grey;
+}
+
+#mainNavbar .nav-icons:hover {
+    color: black;
+}
+
+#mainNavbar .navbar-brand {
+    color: black;
+    font-size: 1.5rem;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: white;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url(imgs/customtoggle.png);
+}
+
+.navbar.scrolled{
+    background:white;
+    transition: background 250ms;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+  
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+  
+.navbar .navbar-collapse{
+    text-align: center;
+} 
+
+@media (max-width: 767px) {
+    .nav-item{
+            font-size:2rem;
+            margin:10px;
+    }        
+}   
+
+/* image */
+
+@media (max-width: 767px) {
+    .grphd{
+            margin-left:5%;
+    }        
+}   
+
+.grphd{
+    height:90%;
+    width:90%;
+}

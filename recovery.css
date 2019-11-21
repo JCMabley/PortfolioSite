@@ -1,0 +1,168 @@
+body{
+    background: white;
+    font-family: "Nunito", sans-serif;
+}
+
+html{
+    height:100%;
+}
+
+#overview p{
+    color:grey;
+    font-size: 1.5rem;
+    font-weight:100;
+}
+
+#overviewlg p{
+    color:grey;
+    font-size: 2rem;
+    font-weight:100;
+}
+
+.blurb1 h2{
+    color:black;
+    font-weight:100;
+    font-size:2.5rem;
+}
+
+.blurb1 p{
+    color:#0FA144;
+    font-weight:100;
+    font-size:1.125rem;
+    line-height:2;
+}
+
+.blurb2 h2{
+    color:black;
+    font-weight:100;
+    font-size:2.5rem;
+}
+
+.blurb2 p{
+    color:#0FA144;
+    font-weight:100;
+    font-size:1.125rem;
+    line-height:2;
+}
+
+.blurb3 h2{
+    color:black;
+    font-weight:100;
+    font-size:2.5rem;
+}
+
+.blurb3 p{
+    color:#0FA144;
+    font-weight:100;
+    font-size:1.125rem;
+    line-height:2;
+}
+
+.blurb4 h2{
+    color:black;
+    font-weight:100;
+    font-size:2.5rem;
+}
+
+.blurb4 p{
+    color:#0FA144;
+    font-weight:100;
+    font-size:1.125rem;
+    line-height:2;
+}
+
+.blurb5 h2{
+    color:black;
+    font-weight:100;
+    font-size:2.5rem;
+}
+
+.blurb5 p{
+    color:#0FA144;
+    font-weight:100;
+    font-size:1.125rem;
+    line-height:2;
+}
+
+/* navbar */
+
+#mainNavbar{
+    background:white;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link{
+    color: grey;
+}
+
+#mainNavbar .nav-link:hover {
+    color: black;
+}
+
+#mainNavbar .nav-icons{
+    color: grey;
+}
+
+#mainNavbar .nav-icons:hover {
+    color: black;
+}
+
+#mainNavbar .navbar-brand {
+    color: black;
+    font-size: 1.5rem;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: white;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url(imgs/customtoggle.png);
+}
+
+.navbar.scrolled{
+    background:white;
+    transition: background 250ms;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+  
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+  
+.navbar .navbar-collapse{
+    text-align: center;
+} 
+
+@media (max-width: 767px) {
+    .nav-item{
+            font-size:2rem;
+            margin:10px;
+    }        
+}   
+
+@media (max-width: 1200px) {
+    #headingGroup h1    {
+        font-weight: 100;
+        font-size: 4rem;
+    }    
+}   
+
+@media (max-width: 1100px) {
+    #headingGroup h1    {
+        font-weight: 100;
+        font-size: 4rem;
+    }    
+}   
+

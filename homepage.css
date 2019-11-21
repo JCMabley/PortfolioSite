@@ -1,0 +1,84 @@
+body{
+    background: url(imgs/bgimage.png);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Nunito", sans-serif;
+}
+
+@media (max-width: 767px) {
+    body{
+            background-position: 52% bottom;
+
+    }        
+}   
+
+html{
+	height:100%;
+}
+
+/* text */
+
+
+/* Navbar */
+
+#mainNavbar{
+    background: white;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link{
+    color: grey;
+}
+
+#mainNavbar .nav-link:hover {
+    color: black;
+}
+
+#mainNavbar .nav-icons{
+    color: grey;
+}
+
+#mainNavbar .nav-icons:hover {
+    color: black;
+}
+
+#mainNavbar .navbar-brand {
+    color: black;
+    font-size: 1.5rem;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: white;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url(imgs/customtoggle.png);
+}
+
+.navbar.scrolled{
+    background:white;
+    transition: background 250ms;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+  
+.navbar .navbar-collapse{
+    text-align: center;
+} 
+
+
+@media (max-width: 767px) {
+    .nav-item{
+            font-size:2rem;
+            margin:10px;
+    }        
+}   
+
+/* other */
+
